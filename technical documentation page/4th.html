@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Technical Documentation</title>
+	<link rel="stylesheet" type="text/css" href="4th.css">
+</head>
+<body>
+	<nav id="navbar">
+		<header>HTML Documentation</header>
+		<ul>
+			<li><a class="nav-link" href="#HTML">HTML</a></li>
+			<li><a class="nav-link" href="#Header">Header</a></li>
+			<li><a class="nav-link" href="#Headlines">Headlines</a></li>
+			<li><a class="nav-link" href="#Paragraphs">Paragraphs</a></li>
+			<li><a class="nav-link" href="#Anchor_Elements">Anchor Elements</a></li>
+			<li><a class="nav-link" href="#Ordered_List">Ordered List</a></li>
+			<li><a class="nav-link" href="#Unordered_List">Unordered List</a></li>
+			<li><a class="nav-link" href="#Forms">Forms</a></li>
+			<li><a class="nav-link" href="#Buttons">Buttons</a></li>
+			<li><a class="nav-link" href="#Placeholder">Placeholder</a></li>
+			<li><a class="nav-link" href="#Radio_Buttons">Radio Buttons</a></li>
+			<li><a class="nav-link" href="#Checkboxes">Checkboxes</a></li>
+			<li><a class="nav-link" href="#Nesting_elements_with_Div">Nesting elements with Div</a></li>
+		</ul>
+	</nav>
+	<main id="main-doc">
+		<section class="main-section" id="HTML">
+			<header>HTML</header>	
+				<article>
+				<p>HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content. For example, different elements can describe text as a heading, paragraph, or list item.	</p>
+			</article>
+		</section>
+		<section class="main-section" id="Header">
+				<header>Header</header>
+				<article>
+				<p>The header HTML element represents introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.</p>
+				<p>An example using the header tag is:</p>
+				<code>
+					< header class="page-header">
+   						< h1 >Cute Puppies Express!< /h1>
+					< /header>
+
+					< main>
+    					< p>I love beagles <em>so</em> much! Like, really, a lot. They’re adorable and their ears are so, so snuggly soft!< /p>
+					< /main>
+				</code>
+			</article>
+		</section>
+		<section class="main-section" id="Headlines">
+				<header>Headlines</header>
+				<article>
+				<p>The headlines element tells the browser about the structure of your website. h1 elements are often used for main headings, while h2 elements are generally used for subheadings.</p>
+				<p> There are also h3, h4, h5 and h6 elements to indicate different levels of subheadings.</p>
+			</article>
+		</section>
+		<section class="main-section" id="Paragraphs">
+				<header>Paragraphs</header>
+				<article>
+				<p>The p element is the preferred element for paragraph text on websites. p is short for "paragraph".</p>
+				<p>You can create a paragraph element like this:</p>
+				<code>
+					< p> I am a p tag< /p>
+				</code>
+			</article>
+		</section>
+		<section class="main-section" id="Anchor_Elements">
+				<header>Anchor Elements</header>
+				<article>
+				<p>You can use a (anchor) elements to link to content outside of your web page.</p>
+				<p>a elements need a destination web address called an href attribute. They also need anchor text. Here's an example:</p>
+				<code>
+					< a href="https://www.freecodecamp.org">this links to freecodecamp.org< /a>
+				</code>
+			</article>
+		</section>
+		<section class="main-section" id="Ordered_List">
+				<header>Ordered List</header>
+				<article>
+				<p>HTML has another special element for creating ordered lists, or numbered lists.</p>
+				<p>Ordered lists start with an opening < ol> element, followed by any number of < li> elements. Finally, ordered lists are closed with the < /ol> tag.</p>
+				<p>For Example:</p>
+				<code>
+					< ol>
+  						< li>Garfield< /li>
+  						< li>Sylvester< /li>
+					< /ol>
+				</code>
+			</article>
+		</section>
+		<section class="main-section" id="Unordered_List">
+				<header>Unordered List</header>
+				<article>
+				<p>HTML has a special element for creating unordered lists, or bullet point style lists.</p>
+				<p>Unordered lists start with an opening < ul> element, followed by any number of < li> elements. Finally, unordered lists close with a < /ul>.</p>
+				<p>For example:</p>
+				<code>
+					< ul>
+  						< li>milk< /li>
+  						< li>cheese< /li>
+					< /ul>
+				</code>
+			</article>
+		</section>
+		<section class="main-section" id="Forms">
+				<header>Forms</header>
+				<article>
+				<p>You can build web forms that actually submit data to a server using nothing more than pure HTML. You can do this by specifying an action attribute on your form element.	</p>
+				<p>The form HTML element represents a document section containing interactive controls for submitting information.</p>
+			</article>
+		</section>
+		<section class="main-section" id="Buttons">
+				<header>Buttons</header>
+				<article>
+				<p>Adding a submit button to your form will send the data from your form to the URL you specified with your form's action attribute.</p>
+				<p>For example:</p>
+				<code>
+					< button type="submit">this button submits the form< /button>
+				</code>
+			</article>
+		</section>
+		<section class="main-section" id="Placeholder">
+				<header>Placeholder</header>
+				<article>
+				<p>Web developers traditionally use lorem ipsum text as placeholder text. The lorem ipsum text is randomly scraped from a famous passage by Cicero of Ancient Rome.</p>
+				<p>Lorem ipsum text has been used as placeholder text by typesetters since the 16th century, and this tradition continues on the web.</p>
+				<p>The placeholder tag can be used to guide the users to fill up the forms. </p>
+			</article>
+		</section>
+		<section class="main-section" id="Radio_Buttons">
+				<header>Radio Buttons</header>
+				<article>
+				<p>You can use radio buttons for questions where you want the user to only give you one answer out of multiple options.</p>
+				<p>Radio buttons are a type of input.</p>
+				<p>Each of your radio buttons can be nested within its own label element. By wrapping an input element inside of a label element it will automatically associate the radio button input with the label element surrounding it. All the radio buttons should have the same name attribute to create a radio button group.</p>
+			</article>
+		</section>
+		<section class="main-section" id="Checkboxes">
+				<header>Checkboxes</header>
+				<article>
+				<p>Forms commonly use checkboxes for questions that may have more than one answer.</p>
+				<p>Checkboxes are a type of input.</p>
+				<p>Each of your checkboxes can be nested within its own label element. By wrapping an input element inside of a label element it will automatically associate the checkbox input with the label element surrounding it. All related checkbox inputs should have the same name attribute.</p>
+			</article>
+		</section>
+		<section class="main-section" id="Nesting_elements_with_Div">
+				<header>Nesting Elements With Div</header>
+				<article>
+				<p>The div element, also known as a division element, is a general purpose container for other elements.</p>
+				<p>The div element is probably the most commonly used HTML element of all.</p>
+				<p>Just like any other non-self-closing element, you can open a div element with < div> and close it on another line with < /div>. It is a block level element, so it will take up the whole block.</p>
+			</article>
+		</section>	
+	</main>
+</body>
+</html>
